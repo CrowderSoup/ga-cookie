@@ -1,4 +1,4 @@
-var ga_cookie = (function () {
+(function () {
     var ga_cookie = function () {
         var self = this;
 
@@ -25,5 +25,5 @@ var ga_cookie = (function () {
         return self;
     };
 
-    return ga_cookie;
+    window.ga_cookie = ga_cookie;
 })();
